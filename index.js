@@ -1,6 +1,6 @@
 // rquire needed modules
 const express = require('express');
-const nodemon = require('nodemon');
+
 
 // initialize the app object
 const app = express();
@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 // second route
 app.get('/second', function (req, res) {
-    res.send('Second route');
+    res.send('Second route!');
 });
 
 // third route
